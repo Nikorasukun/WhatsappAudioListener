@@ -127,7 +127,6 @@ class _ListenerhomepageState extends State<Listenerhomepage> {
   Widget progressBarCreater(){
     return ProgressBar(
       progress: _progress,
-      buffered: _buffered,
       total: _total,
       onSeek: (p) {
         audioPlayer.seek(p);
