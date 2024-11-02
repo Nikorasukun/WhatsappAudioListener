@@ -42,7 +42,6 @@ class _ListenerhomepageState extends State<Listenerhomepage> {
   double playRate=1;
 
   Duration _progress = const Duration();
-  Duration _buffered = Duration();
   Duration _total = const Duration();
 
   bool _isPlaying = false;
